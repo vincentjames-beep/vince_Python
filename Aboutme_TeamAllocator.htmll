@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+box-sizing: border-box;
+}
+
+
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* Style the header */
+header {
+background-color: blue;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+float: left;
+width: 30%;
+height: 400px; /* only for demonstration, should be removed */
+background: rgb(12, 12, 12);
+padding: 20px;
+}
+
+
+
+
+/* Style the list inside the menu */
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+
+
+
+article {
+float: left;
+padding: 20px;
+width: 70%;
+background-color: lightblue;
+height: 400px; /* only for demonstration, should be removed */
+}
+
+
+
+
+/* Clear floats after the columns */
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+
+
+/* Style the footer */
+footer {
+background-color: blue;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+nav, article {
+  width: 100%;
+  height: auto;
+}
+}
+</style>
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+<header>
+<h4>All About Vincent James Hidden Genius Student</h4>
+</header>
+
+
+
+
+<section>
+<nav>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVEbrH6KAKBwWh2HxGCFxmjR1KBpE9vEurKoedbyWjyQ&s=10"
+ alt="Mountain" width="175" height="150">
+  <ul>
+      <img src="https://www.straightofficial.com/wp-content/uploads/2025/11/NBA2-1.jpg" width="175" height="150">
+  <ul>
+
+
+
+
+</nav>
+ <article>
+  <h1>My name is Vincent. I am an active and motivated person who enjoys sports, fishing, and fitness. I play basketball for UYK&Q (Urban Youth Kings & Queens), and I also play at the YMCA. In my free time, I enjoy fishing at ponds and lakes because it helps me relax and enjoy nature. When I'm not using my phone, I like to stay productive by doing push-ups and other exercises at home. I enjoy challenging myself, staying active, and working hard to improve every day.</h1>
+
+
+
+
+</article>
+</section>
+
+
+
+
+<footer>
+<p> My Look Alikes: Big Sean & NBA Youngboy</p>
+</footer>
+
+
+</body>
+</html>
+
+
+<h1>Link to my Career</h1>
+
+<p><a href="https://docs.google.com/document/d/1-HGC7woEol9UMMVInllKlKgo1Sn2NVHHCQ8yG4JBX3o/edit?tab=t.0">Visit Vincents Career!</a></p>
+
+</body>
+</html>
+
+<p><a href="https://docs.google.com/presentation/d/1SFUACci-hSfmkmVG1_eEZSQdl0Vq7A5hkKMAVgj7RM8/edit?slide=id.p#slide=id.p">Visit Vincents Career slides</a></p>
